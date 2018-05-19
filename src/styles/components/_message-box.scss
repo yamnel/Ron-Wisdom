@@ -1,0 +1,22 @@
+.message-box {
+    margin-top: 100px;
+    width: 600px;
+}
+
+.fade-transition {
+    transition: 500ms all ease;
+    opacity: 0;
+    will-change: opacity;
+}
+
+.show {
+    opacity: 1;
+}
+
+.legend {
+    color: lighten(#C1CFD1, 5%);
+    display: flex;
+    float: right;
+    line-height: 14px;
+    margin-top: 5px;
+}
