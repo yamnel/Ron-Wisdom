@@ -1,7 +1,7 @@
 @font-face {
     src: url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 }
-// settings should go first, since we use it's settings everywhere else.
+// setting settings first to avoid overloads
 @import "base/settings";
 @import "base/base";
 
