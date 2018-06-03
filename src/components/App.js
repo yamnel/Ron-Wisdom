@@ -24,7 +24,7 @@ class App extends React.Component {
 
         const timeOut = setTimeout(() => {
 
-            // Sometimes the state change miss fires, this 'if' is to correct that
+            // In case of an asynchronous state miss-fire
             if (this.state.show) {
                 this.setState({show: false});
             }
