@@ -17,7 +17,7 @@ class App extends React.Component {
     };
 
     showNotification = () => {
-        // Sometimes the state change miss fires, this 'if' is to correct that
+        // In case of an asynchronous state miss-fire 
         if (!this.state.show) {
             this.setState({show: true});
         }
