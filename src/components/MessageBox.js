@@ -5,8 +5,7 @@ const iconColor = '#C1CFD1';
 
 const Signature = (<p
     style={{textAlign: 'right'}}>
-
-    <br/> -Ron Swanson
+  <br/> -Ron Swanson
 </p>);
 
 const MessageBox = (props) => (
