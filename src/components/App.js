@@ -72,9 +72,17 @@ class App extends Component {
         clearTimeout(this.state.quoteTimeOut);
     }
 
+    Message = (
+      <div className={'message'}>
+          <h1>This page is under construction...</h1>
+          <h4>For now, please enjoy some Ron Swanson wisdom.</h4>
+      </div>
+    );
+
     render() {
         return (
             <div className={'view'}>
+              {this.Message}
                 <MessageBox
                     class={`fade-transition ${this.state.show ? 'show' : ''}`}
                     onCardClick={this.handleOnCardClick}

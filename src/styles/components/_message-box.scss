@@ -1,6 +1,11 @@
 .message-box {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 600px;
+}
+
+.custom-card {
+    background-color: rgba(215, 226, 227, 0.86);
+    //background-color: rgba(11, 148, 144, 0.21);
 }
 
 .fade-transition {
@@ -14,7 +19,7 @@
 }
 
 .legend {
-    color: lighten(#C1CFD1, 5%);
+    color: lighten(#2a2c2e, 5%);
     display: flex;
     float: right;
     line-height: 14px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, Elevation, Icon} from "@blueprintjs/core";
 
-const iconColor = '#C1CFD1';
+const iconColor = '#545b5d';
 
 const Signature = (<p
     style={{textAlign: 'right'}}>
@@ -11,10 +11,10 @@ const Signature = (<p
 const MessageBox = (props) => (
     <div className={'message-box'}>
 
-        <Card interactive elevation={Elevation.THREE} onClick={props.onCardClick}>
+        <Card interactive className={'custom-card'} elevation={Elevation.FOUR} onClick={props.onCardClick}>
             <div className={props.class}>
-                {props.quote}
-                {Signature}
+                <p>"{props.quote}"</p>
+                <h6>{Signature}</h6>
             </div>
 
         </Card>
