@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import RSapi from '../api/RonSwansonApi'
 import MessageBox from "./MessageBox";
 
@@ -17,7 +17,7 @@ class App extends React.Component {
     };
 
     showNotification = () => {
-        // In case of an asynchronous state miss-fire 
+        // In case of an asynchronous state miss-fire
         if (!this.state.show) {
             this.setState({show: true});
         }
