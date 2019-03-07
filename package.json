@@ -8,7 +8,7 @@
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "wp-dev": "webpack --mode development",
-        "wp-build": "webpack --mode production",
+        "wp-build": "webpack --mode production --env production",
         "wp-dev-server": "webpack-dev-server --mode development"
     },
     "dependencies": {
