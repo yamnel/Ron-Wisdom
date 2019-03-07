@@ -14,7 +14,7 @@ const MessageBox = (props) => (
         <Card interactive className={'custom-card'} elevation={Elevation.FOUR} onClick={props.onCardClick}>
             <div className={props.class}>
                 <p>"{props.quote}"</p>
-                <h6>{Signature}</h6>
+                <h5>{Signature}</h5>
             </div>
 
         </Card>

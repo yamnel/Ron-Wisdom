@@ -12,12 +12,12 @@
         "wp-dev-server": "webpack-dev-server --mode development"
     },
     "dependencies": {
-        "@blueprintjs/core": "^2.3.1",
-        "@types/react": "^16.3.14",
-        "react": "^16.3.2",
+        "@blueprintjs/core": "3.14.1",
+        "@types/react": "16.8.7",
+        "react": "16.8.4",
         "react-addons-css-transition-group": "^15.6.2",
-        "react-dom": "^16.3.2",
-        "react-scripts": "1.1.4"
+        "react-dom": "16.8.4",
+        "react-scripts": "2.1.8"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
