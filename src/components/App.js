@@ -5,7 +5,7 @@ import MessageBox from "./MessageBox";
 // How long the message will be on the screen for in milliseconds
 const messageDisplayTime = 10000;
 
-class App extends React.Component {
+class App extends Component {
     state = {
         show: false
     };
