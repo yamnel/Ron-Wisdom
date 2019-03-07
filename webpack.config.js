@@ -10,7 +10,7 @@ module.exports = env => {
         entry: path.join(__dirname, "src", "index.js"),
 
         output: {
-            path: path.join(__dirname, "public", "dist"),
+            path: path.join(__dirname, isProduction ? "docs" : "public", "dist"),
             filename: "bundle.js"
         },
         plugins: [MiniCSSExtract],
